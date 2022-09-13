@@ -1,4 +1,4 @@
-module github.com/infracasts/terraform-provider-aws-expose-internal/v4
+module github.com/infracasts/terraform-provider-aws-expose-internal
 
 go 1.19
 
