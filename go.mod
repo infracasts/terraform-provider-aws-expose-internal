@@ -3,9 +3,7 @@ module github.com/infracasts/terraform-provider-aws-expose-internal/v4
 go 1.19
 
 require github.com/hashicorp/terraform-provider-aws v1.60.1-0.20220831222221-06950e7884e5
-replace github.com/infracasts/terraform-provider-aws-expose-internal => github.com/infracasts/terraform-provider-aws-expose-internal/v4 latest
 
-require github.com/infracasts/terraform-provider-aws-expose-internal/v4 latest
 require (
 	github.com/ProtonMail/go-crypto v0.0.0-20210428141323-04723f9f07d7
 	github.com/aws/aws-sdk-go v1.44.88
