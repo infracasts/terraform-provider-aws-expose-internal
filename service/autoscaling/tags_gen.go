@@ -10,8 +10,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/autoscaling"
 	"github.com/aws/aws-sdk-go/service/autoscaling/autoscalingiface"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 // GetTag fetches an individual autoscaling service tag for a resource.

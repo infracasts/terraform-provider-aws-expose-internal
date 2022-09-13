@@ -120,9 +120,9 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/{{ .AWSService }}"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func ResourceTag() *schema.Resource {
@@ -242,11 +242,11 @@ import (
 	"github.com/aws/aws-sdk-go/service/{{ .AWSService }}"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
-	tf{{ .ServicePackage }} "github.com/infracasts/terraform-provider-aws-public/service/{{ .ServicePackage }}"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
+	tf{{ .ServicePackage }} "github.com/infracasts/terraform-provider-aws-expose-internal/service/{{ .ServicePackage }}"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func testAccCheckTagDestroy(s *terraform.State) error {

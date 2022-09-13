@@ -8,9 +8,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/create"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/create"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 func DataSourceTable() *schema.Resource {

@@ -8,11 +8,11 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfdynamodb "github.com/infracasts/terraform-provider-aws-public/service/dynamodb"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfdynamodb "github.com/infracasts/terraform-provider-aws-expose-internal/service/dynamodb"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func testAccCheckTagDestroy(s *terraform.State) error {

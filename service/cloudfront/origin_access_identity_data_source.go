@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/arn"
 	"github.com/aws/aws-sdk-go/service/cloudfront"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
 )
 
 func DataSourceOriginAccessIdentity() *schema.Resource {

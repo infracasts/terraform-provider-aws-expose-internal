@@ -3,7 +3,7 @@ package dynamodb_test
 import (
 	"testing"
 
-	tfdynamodb "github.com/infracasts/terraform-provider-aws-public/service/dynamodb"
+	tfdynamodb "github.com/infracasts/terraform-provider-aws-expose-internal/service/dynamodb"
 )
 
 func TestARNForNewRegion(t *testing.T) {

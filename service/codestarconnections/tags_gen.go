@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/codestarconnections"
 	"github.com/aws/aws-sdk-go/service/codestarconnections/codestarconnectionsiface"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 // ListTags lists codestarconnections service tags.

@@ -9,9 +9,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/iam"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 func DataSourceSessionContext() *schema.Resource {

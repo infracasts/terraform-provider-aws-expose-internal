@@ -7,10 +7,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/cloudformation"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 func DataSourceStack() *schema.Resource {

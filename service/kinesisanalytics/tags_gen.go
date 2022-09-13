@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/kinesisanalytics"
 	"github.com/aws/aws-sdk-go/service/kinesisanalytics/kinesisanalyticsiface"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 // ListTags lists kinesisanalytics service tags.

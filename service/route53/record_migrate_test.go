@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfroute53 "github.com/infracasts/terraform-provider-aws-public/service/route53"
+	tfroute53 "github.com/infracasts/terraform-provider-aws-expose-internal/service/route53"
 )
 
 func TestRecordMigrateState(t *testing.T) {

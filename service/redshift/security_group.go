@@ -12,8 +12,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/redshift"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/create"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/create"
 )
 
 func ResourceSecurityGroup() *schema.Resource {

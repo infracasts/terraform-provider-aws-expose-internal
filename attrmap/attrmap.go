@@ -7,7 +7,7 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 // AttributeMap represents a map of Terraform resource attribute name to AWS API attribute name.

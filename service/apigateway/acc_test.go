@@ -13,8 +13,8 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/provider"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/provider"
 )
 
 // API Gateway Edge-Optimized Domain Name can only be created with ACM Certificates in specific regions.

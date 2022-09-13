@@ -9,10 +9,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/ssm"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/create"
-	tfssm "github.com/infracasts/terraform-provider-aws-public/service/ssm"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/create"
+	tfssm "github.com/infracasts/terraform-provider-aws-expose-internal/service/ssm"
 	"github.com/hashicorp/terraform-provider-aws/names"
 )
 

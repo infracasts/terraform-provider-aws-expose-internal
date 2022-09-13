@@ -10,7 +10,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/wafregional"
 	"github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
 )
 
 // WAF requires UpdateIPSet operations be split into batches of 1000 Updates

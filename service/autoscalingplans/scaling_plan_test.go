@@ -12,10 +12,10 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfautoscalingplans "github.com/infracasts/terraform-provider-aws-public/service/autoscalingplans"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfautoscalingplans "github.com/infracasts/terraform-provider-aws-expose-internal/service/autoscalingplans"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func TestAccAutoScalingPlansScalingPlan_basicDynamicScaling(t *testing.T) {

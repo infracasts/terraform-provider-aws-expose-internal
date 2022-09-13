@@ -8,7 +8,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/workspaces"
 	"github.com/aws/aws-sdk-go/service/workspaces/workspacesiface"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 // ListTags lists workspaces service tags.

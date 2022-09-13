@@ -13,10 +13,10 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/diag"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/experimental/nullable"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/experimental/nullable"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func ResourceArchiveRule() *schema.Resource {

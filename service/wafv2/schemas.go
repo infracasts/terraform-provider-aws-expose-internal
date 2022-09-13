@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/wafv2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 func emptySchema() *schema.Schema {

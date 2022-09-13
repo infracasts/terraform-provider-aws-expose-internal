@@ -11,9 +11,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfkinesisvideo "github.com/infracasts/terraform-provider-aws-public/service/kinesisvideo"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfkinesisvideo "github.com/infracasts/terraform-provider-aws-expose-internal/service/kinesisvideo"
 )
 
 func TestAccKinesisVideoStream_basic(t *testing.T) {

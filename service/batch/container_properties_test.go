@@ -3,7 +3,7 @@ package batch_test
 import (
 	"testing"
 
-	tfbatch "github.com/infracasts/terraform-provider-aws-public/service/batch"
+	tfbatch "github.com/infracasts/terraform-provider-aws-expose-internal/service/batch"
 )
 
 func TestEquivalentContainerPropertiesJSON(t *testing.T) {

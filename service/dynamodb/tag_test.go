@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfdynamodb "github.com/infracasts/terraform-provider-aws-public/service/dynamodb"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfdynamodb "github.com/infracasts/terraform-provider-aws-expose-internal/service/dynamodb"
 )
 
 func TestAccDynamoDBTag_basic(t *testing.T) {

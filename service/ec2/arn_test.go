@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	tfec2 "github.com/infracasts/terraform-provider-aws-public/service/ec2"
+	tfec2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/ec2"
 )
 
 func TestInstanceProfileARNToName(t *testing.T) {

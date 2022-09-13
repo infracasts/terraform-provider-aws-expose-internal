@@ -8,10 +8,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/redshift"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 func ResourceClusterIAMRoles() *schema.Resource {

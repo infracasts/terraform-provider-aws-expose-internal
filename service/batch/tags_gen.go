@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/batch"
 	"github.com/aws/aws-sdk-go/service/batch/batchiface"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 // GetTag fetches an individual batch service tag for a resource.

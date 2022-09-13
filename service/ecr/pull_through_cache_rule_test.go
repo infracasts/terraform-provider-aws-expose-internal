@@ -10,10 +10,10 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfecr "github.com/infracasts/terraform-provider-aws-public/service/ecr"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfecr "github.com/infracasts/terraform-provider-aws-expose-internal/service/ecr"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func TestAccECRPullThroughCacheRule_basic(t *testing.T) {

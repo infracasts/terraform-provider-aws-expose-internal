@@ -8,10 +8,10 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfschemas "github.com/infracasts/terraform-provider-aws-public/service/schemas"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfschemas "github.com/infracasts/terraform-provider-aws-expose-internal/service/schemas"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 const (

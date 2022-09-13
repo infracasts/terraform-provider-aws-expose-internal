@@ -9,9 +9,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfs3outposts "github.com/infracasts/terraform-provider-aws-public/service/s3outposts"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfs3outposts "github.com/infracasts/terraform-provider-aws-expose-internal/service/s3outposts"
 )
 
 func TestAccS3OutpostsEndpoint_basic(t *testing.T) {

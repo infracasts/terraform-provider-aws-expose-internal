@@ -28,12 +28,12 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/structure"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/provider"
-	tfec2 "github.com/infracasts/terraform-provider-aws-public/service/ec2"
-	tforganizations "github.com/infracasts/terraform-provider-aws-public/service/organizations"
-	tfsts "github.com/infracasts/terraform-provider-aws-public/service/sts"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/provider"
+	tfec2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/ec2"
+	tforganizations "github.com/infracasts/terraform-provider-aws-expose-internal/service/organizations"
+	tfsts "github.com/infracasts/terraform-provider-aws-expose-internal/service/sts"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 const (

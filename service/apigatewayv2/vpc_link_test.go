@@ -11,9 +11,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfapigatewayv2 "github.com/infracasts/terraform-provider-aws-public/service/apigatewayv2"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfapigatewayv2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/apigatewayv2"
 )
 
 func TestAccAPIGatewayV2VPCLink_basic(t *testing.T) {

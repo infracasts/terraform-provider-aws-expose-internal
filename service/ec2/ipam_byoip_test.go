@@ -9,7 +9,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
 )
 
 // Due to the nature of byoip cidrs, we have each possible test represented as a single test with

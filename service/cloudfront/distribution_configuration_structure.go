@@ -16,8 +16,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/cloudfront"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/create"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/create"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
 )
 
 // route53ZoneID defines the route 53 zone ID for CloudFront. This

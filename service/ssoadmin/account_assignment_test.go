@@ -11,9 +11,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfssoadmin "github.com/infracasts/terraform-provider-aws-public/service/ssoadmin"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfssoadmin "github.com/infracasts/terraform-provider-aws-expose-internal/service/ssoadmin"
 )
 
 func TestAccSSOAdminAccountAssignment_Basic_group(t *testing.T) {

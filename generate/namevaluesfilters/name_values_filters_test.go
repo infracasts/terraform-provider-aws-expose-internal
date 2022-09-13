@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/create"
-	"github.com/infracasts/terraform-provider-aws-public/generate/namevaluesfilters"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/create"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/generate/namevaluesfilters"
 )
 
 func TestNameValuesFiltersMap(t *testing.T) {

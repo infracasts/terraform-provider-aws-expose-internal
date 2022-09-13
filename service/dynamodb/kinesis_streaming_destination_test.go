@@ -11,9 +11,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfdynamodb "github.com/infracasts/terraform-provider-aws-public/service/dynamodb"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfdynamodb "github.com/infracasts/terraform-provider-aws-expose-internal/service/dynamodb"
 )
 
 func TestAccDynamoDBKinesisStreamingDestination_basic(t *testing.T) {

@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/attr"
 	"github.com/hashicorp/terraform-plugin-framework/path"
 	"github.com/hashicorp/terraform-plugin-go/tftypes"
-	"github.com/infracasts/terraform-provider-aws-public/provider/fwprovider"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/provider/fwprovider"
 )
 
 func TestDurationTypeValueFromTerraform(t *testing.T) {

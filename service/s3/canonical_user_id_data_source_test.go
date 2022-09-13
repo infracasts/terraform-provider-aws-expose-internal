@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
 )
 
 func TestAccS3CanonicalUserIDDataSource_basic(t *testing.T) {

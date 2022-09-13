@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/elbv2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfelbv2 "github.com/infracasts/terraform-provider-aws-public/service/elbv2"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfelbv2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/elbv2"
 )
 
 func TestAccELBV2HostedZoneIDDataSource_basic(t *testing.T) {

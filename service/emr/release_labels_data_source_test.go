@@ -5,7 +5,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/emr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
 )
 
 func TestAccEMRReleaseLabels_basic(t *testing.T) {

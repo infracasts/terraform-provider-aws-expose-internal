@@ -11,8 +11,8 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfmeta "github.com/infracasts/terraform-provider-aws-public/service/meta"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfmeta "github.com/infracasts/terraform-provider-aws-expose-internal/service/meta"
 )
 
 func TestAccMetaIPRangesDataSource_basic(t *testing.T) {

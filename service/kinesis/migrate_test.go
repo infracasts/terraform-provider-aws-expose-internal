@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	tfkinesis "github.com/infracasts/terraform-provider-aws-public/service/kinesis"
+	tfkinesis "github.com/infracasts/terraform-provider-aws-expose-internal/service/kinesis"
 )
 
 func testResourceStreamStateDataV0() map[string]interface{} {

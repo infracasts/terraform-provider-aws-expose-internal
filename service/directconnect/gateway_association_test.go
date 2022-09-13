@@ -10,10 +10,10 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfdirectconnect "github.com/infracasts/terraform-provider-aws-public/service/directconnect"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfdirectconnect "github.com/infracasts/terraform-provider-aws-expose-internal/service/directconnect"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 // V0 state upgrade testing must be done via acceptance testing due to API call

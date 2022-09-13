@@ -8,9 +8,9 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfmacie2 "github.com/infracasts/terraform-provider-aws-public/service/macie2"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfmacie2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/macie2"
 )
 
 func testAccOrganizationAdminAccount_basic(t *testing.T) {

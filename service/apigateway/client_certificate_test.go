@@ -10,9 +10,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/apigateway"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfapigateway "github.com/infracasts/terraform-provider-aws-public/service/apigateway"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfapigateway "github.com/infracasts/terraform-provider-aws-expose-internal/service/apigateway"
 )
 
 func TestAccAPIGatewayClientCertificate_basic(t *testing.T) {

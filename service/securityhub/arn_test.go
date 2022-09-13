@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	tfsecurityhub "github.com/infracasts/terraform-provider-aws-public/service/securityhub"
+	tfsecurityhub "github.com/infracasts/terraform-provider-aws-expose-internal/service/securityhub"
 )
 
 func TestStandardsControlARNToStandardsSubscriptionARN(t *testing.T) {

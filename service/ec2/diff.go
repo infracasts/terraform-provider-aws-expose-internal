@@ -2,7 +2,7 @@ package ec2
 
 import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 // suppressEqualCIDRBlockDiffs provides custom difference suppression for CIDR blocks

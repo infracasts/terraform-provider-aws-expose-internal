@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfec2 "github.com/infracasts/terraform-provider-aws-public/service/ec2"
+	tfec2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/ec2"
 )
 
 func TestKeyPairMigrateState(t *testing.T) {

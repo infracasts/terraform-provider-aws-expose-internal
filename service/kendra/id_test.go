@@ -3,7 +3,7 @@ package kendra_test
 import (
 	"testing"
 
-	tfkendra "github.com/infracasts/terraform-provider-aws-public/service/kendra"
+	tfkendra "github.com/infracasts/terraform-provider-aws-expose-internal/service/kendra"
 )
 
 func TestExperienceParseResourceID(t *testing.T) {

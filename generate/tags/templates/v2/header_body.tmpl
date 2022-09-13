@@ -11,7 +11,7 @@ import (
 	{{- end }}
 
 	"github.com/aws/aws-sdk-go-v2/aws"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 	{{- if .AWSService }}
 	"github.com/aws/aws-sdk-go-v2/service/{{ .AWSService }}"
 	{{- if not .SkipTypesImp }}
@@ -26,6 +26,6 @@ import (
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	{{- end }}
 	{{- if .TfResourcePkg }}
-    "github.com/infracasts/terraform-provider-aws-public/tfresource"
+    "github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 	{{- end }}
 )

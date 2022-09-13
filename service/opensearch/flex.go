@@ -4,7 +4,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/opensearchservice"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
 )
 
 func expandCognitoOptions(c []interface{}) *opensearchservice.CognitoOptions {

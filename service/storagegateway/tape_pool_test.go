@@ -10,9 +10,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfstoragegateway "github.com/infracasts/terraform-provider-aws-public/service/storagegateway"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfstoragegateway "github.com/infracasts/terraform-provider-aws-expose-internal/service/storagegateway"
 )
 
 func TestAccStorageGatewayTapePool_basic(t *testing.T) {

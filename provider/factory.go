@@ -6,7 +6,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/providerserver"
 	"github.com/hashicorp/terraform-plugin-go/tfprotov5"
 	"github.com/hashicorp/terraform-plugin-mux/tf5muxserver"
-	"github.com/infracasts/terraform-provider-aws-public/provider/fwprovider"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/provider/fwprovider"
 )
 
 // ProtoV5ProviderServerFactory returns a muxed terraform-plugin-go protocol v5 provider factory function.

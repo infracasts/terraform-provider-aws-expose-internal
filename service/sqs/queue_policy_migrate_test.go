@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfsqs "github.com/infracasts/terraform-provider-aws-public/service/sqs"
+	tfsqs "github.com/infracasts/terraform-provider-aws-expose-internal/service/sqs"
 )
 
 func TestQueuePolicyMigrateState(t *testing.T) {

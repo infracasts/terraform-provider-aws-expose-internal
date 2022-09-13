@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfcloudwatch "github.com/infracasts/terraform-provider-aws-public/service/cloudwatch"
+	tfcloudwatch "github.com/infracasts/terraform-provider-aws-expose-internal/service/cloudwatch"
 )
 
 func TestMetricAlarmMigrateState(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/s3"
-	tfs3 "github.com/infracasts/terraform-provider-aws-public/service/s3"
+	tfs3 "github.com/infracasts/terraform-provider-aws-expose-internal/service/s3"
 )
 
 // AWS_REGION=us-west-2 go test -v ./internal/service/s3 -run=TestEmptyBucket -b ewbankkit-test-empty-bucket-001 -f

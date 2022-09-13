@@ -14,8 +14,8 @@ import (
 	"strings"
 	"text/template"
 
-	v1 "github.com/infracasts/terraform-provider-aws-public/generate/tags/templates/v1"
-	v2 "github.com/infracasts/terraform-provider-aws-public/generate/tags/templates/v2"
+	v1 "github.com/infracasts/terraform-provider-aws-expose-internal/generate/tags/templates/v1"
+	v2 "github.com/infracasts/terraform-provider-aws-expose-internal/generate/tags/templates/v2"
 	"github.com/hashicorp/terraform-provider-aws/names"
 )
 

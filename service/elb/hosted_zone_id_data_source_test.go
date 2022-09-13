@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/elb"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfelb "github.com/infracasts/terraform-provider-aws-public/service/elb"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfelb "github.com/infracasts/terraform-provider-aws-expose-internal/service/elb"
 )
 
 func TestAccELBHostedZoneIDDataSource_basic(t *testing.T) {

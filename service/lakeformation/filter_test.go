@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/lakeformation"
-	tflakeformation "github.com/infracasts/terraform-provider-aws-public/service/lakeformation"
+	tflakeformation "github.com/infracasts/terraform-provider-aws-expose-internal/service/lakeformation"
 )
 
 func TestFilterPermissions(t *testing.T) {

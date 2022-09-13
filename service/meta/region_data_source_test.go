@@ -7,8 +7,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfmeta "github.com/infracasts/terraform-provider-aws-public/service/meta"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfmeta "github.com/infracasts/terraform-provider-aws-expose-internal/service/meta"
 )
 
 func TestFindRegionByEC2Endpoint(t *testing.T) {

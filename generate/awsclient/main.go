@@ -132,7 +132,7 @@ import (
 	"github.com/aws/aws-sdk-go{{ if eq .SDKVersion "2" }}-v2{{ end }}/service/{{ .GoPackage }}"
 {{- end }}
 	"github.com/aws/aws-sdk-go/aws/session"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 type AWSClient struct {

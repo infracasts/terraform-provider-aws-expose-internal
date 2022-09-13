@@ -9,10 +9,10 @@ import (
 	"github.com/hashicorp/aws-sdk-go-base/v2/awsv1shim/v2/tfawserr"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfdetective "github.com/infracasts/terraform-provider-aws-public/service/detective"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfdetective "github.com/infracasts/terraform-provider-aws-expose-internal/service/detective"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func testAccInvitationAccepter_basic(t *testing.T) {

@@ -9,8 +9,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/efs"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 func DataSourceFileSystem() *schema.Resource {

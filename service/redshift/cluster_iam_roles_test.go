@@ -7,8 +7,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/redshift"
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfredshift "github.com/infracasts/terraform-provider-aws-public/service/redshift"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfredshift "github.com/infracasts/terraform-provider-aws-expose-internal/service/redshift"
 )
 
 func TestAccRedshiftClusterIAMRoles_basic(t *testing.T) {

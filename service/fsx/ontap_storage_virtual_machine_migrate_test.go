@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	tffsx "github.com/infracasts/terraform-provider-aws-public/service/fsx"
+	tffsx "github.com/infracasts/terraform-provider-aws-expose-internal/service/fsx"
 )
 
 func testOntapStorageVirtualMachineStateDataV0() map[string]interface{} {

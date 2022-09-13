@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/kms"
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfkms "github.com/infracasts/terraform-provider-aws-public/service/kms"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfkms "github.com/infracasts/terraform-provider-aws-expose-internal/service/kms"
 )
 
 func TestAccKMSReplicaKey_basic(t *testing.T) {

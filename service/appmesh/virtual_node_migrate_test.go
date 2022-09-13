@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfappmesh "github.com/infracasts/terraform-provider-aws-public/service/appmesh"
+	tfappmesh "github.com/infracasts/terraform-provider-aws-expose-internal/service/appmesh"
 )
 
 func TestVirtualNodeMigrateState(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"github.com/aws/aws-sdk-go/service/opsworks"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfopsworks "github.com/infracasts/terraform-provider-aws-public/service/opsworks"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfopsworks "github.com/infracasts/terraform-provider-aws-expose-internal/service/opsworks"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
 )
 
 func testAccCheckLayerExists(n string, v *opsworks.Layer) resource.TestCheckFunc {

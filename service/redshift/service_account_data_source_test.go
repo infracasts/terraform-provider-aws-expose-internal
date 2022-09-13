@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/redshift"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfredshift "github.com/infracasts/terraform-provider-aws-public/service/redshift"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfredshift "github.com/infracasts/terraform-provider-aws-expose-internal/service/redshift"
 )
 
 func TestAccRedshiftServiceAccountDataSource_basic(t *testing.T) {

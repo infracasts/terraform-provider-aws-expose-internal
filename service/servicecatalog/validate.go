@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"regexp"
 
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 func validSharePrincipal(v interface{}, k string) (ws []string, errors []error) {

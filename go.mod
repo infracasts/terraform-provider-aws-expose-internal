@@ -1,4 +1,4 @@
-module github.com/infracasts/terraform-provider-aws-public/v4
+module github.com/infracasts/terraform-provider-aws-expose-internal/v4
 
 go 1.19
 
@@ -32,7 +32,6 @@ require (
 	github.com/hashicorp/terraform-plugin-log v0.7.0
 	github.com/hashicorp/terraform-plugin-mux v0.7.0
 	github.com/hashicorp/terraform-plugin-sdk/v2 v2.21.0
-	github.com/infracasts/terraform-provider-aws-public v0.0.0-20220903141604-e2ec92c6ead1
 	github.com/mattbaird/jsonpatch v0.0.0-20200820163806-098863c1fc24
 	github.com/mitchellh/copystructure v1.2.0
 	github.com/mitchellh/go-homedir v1.1.0

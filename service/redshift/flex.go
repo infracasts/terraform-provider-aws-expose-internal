@@ -3,7 +3,7 @@ package redshift
 import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/redshift"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
 )
 
 func ExpandParameters(configured []interface{}) []*redshift.Parameter {

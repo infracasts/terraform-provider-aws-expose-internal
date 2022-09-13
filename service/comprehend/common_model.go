@@ -9,7 +9,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go/service/ec2"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	tfec2 "github.com/infracasts/terraform-provider-aws-public/service/ec2"
+	tfec2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/ec2"
 )
 
 type safeMutex struct {

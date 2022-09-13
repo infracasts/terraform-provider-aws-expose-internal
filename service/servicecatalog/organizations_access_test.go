@@ -7,9 +7,9 @@ import (
 	"github.com/aws/aws-sdk-go/service/servicecatalog"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfservicecatalog "github.com/infracasts/terraform-provider-aws-public/service/servicecatalog"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfservicecatalog "github.com/infracasts/terraform-provider-aws-expose-internal/service/servicecatalog"
 )
 
 func TestAccServiceCatalogOrganizationsAccess_basic(t *testing.T) {

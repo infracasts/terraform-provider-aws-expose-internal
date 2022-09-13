@@ -10,9 +10,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfs3 "github.com/infracasts/terraform-provider-aws-public/service/s3"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfs3 "github.com/infracasts/terraform-provider-aws-expose-internal/service/s3"
 )
 
 func TestAccS3BucketObjectLockConfiguration_basic(t *testing.T) {

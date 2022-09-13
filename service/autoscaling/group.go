@@ -22,13 +22,13 @@ import ( // nosemgrep:ci.aws-sdk-go-multiple-service-imports
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/validation"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/create"
-	"github.com/infracasts/terraform-provider-aws-public/experimental/nullable"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
-	tfelb "github.com/infracasts/terraform-provider-aws-public/service/elb"
-	"github.com/infracasts/terraform-provider-aws-public/tfresource"
-	"github.com/infracasts/terraform-provider-aws-public/verify"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/create"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/experimental/nullable"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
+	tfelb "github.com/infracasts/terraform-provider-aws-expose-internal/service/elb"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/tfresource"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/verify"
 )
 
 func ResourceGroup() *schema.Resource {

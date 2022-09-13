@@ -8,10 +8,10 @@ import (
 	"github.com/aws/aws-sdk-go/aws/arn"
 	"github.com/aws/aws-sdk-go/service/elb"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	"github.com/infracasts/terraform-provider-aws-public/flex"
-	tfec2 "github.com/infracasts/terraform-provider-aws-public/service/ec2"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/flex"
+	tfec2 "github.com/infracasts/terraform-provider-aws-expose-internal/service/ec2"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 func DataSourceLoadBalancer() *schema.Resource {

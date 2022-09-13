@@ -7,7 +7,7 @@ import (
 	"github.com/hashicorp/terraform-plugin-framework/provider"
 	"github.com/hashicorp/terraform-plugin-framework/tfsdk"
 	"github.com/hashicorp/terraform-plugin-framework/types"
-	"github.com/infracasts/terraform-provider-aws-public/service/meta"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/service/meta"
 	"github.com/hashicorp/terraform-provider-aws/names"
 )
 

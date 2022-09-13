@@ -8,9 +8,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfcodebuild "github.com/infracasts/terraform-provider-aws-public/service/codebuild"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfcodebuild "github.com/infracasts/terraform-provider-aws-expose-internal/service/codebuild"
 )
 
 func TestAccCodeBuildReportGroup_basic(t *testing.T) {

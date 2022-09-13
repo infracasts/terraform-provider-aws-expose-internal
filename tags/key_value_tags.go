@@ -8,7 +8,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/infracasts/terraform-provider-aws-public/create"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/create"
 )
 
 const (

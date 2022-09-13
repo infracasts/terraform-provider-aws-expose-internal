@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/aws/aws-sdk-go/aws"
-	tflakeformation "github.com/infracasts/terraform-provider-aws-public/service/lakeformation"
+	tflakeformation "github.com/infracasts/terraform-provider-aws-expose-internal/service/lakeformation"
 )
 
 func TestStringSlicesEqualIgnoreOrder(t *testing.T) {

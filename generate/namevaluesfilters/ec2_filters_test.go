@@ -3,8 +3,8 @@ package namevaluesfilters_test
 import (
 	"testing"
 
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/generate/namevaluesfilters"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/generate/namevaluesfilters"
 )
 
 func TestNameValuesFiltersEC2Tags(t *testing.T) {

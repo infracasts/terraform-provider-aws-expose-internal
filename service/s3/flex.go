@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/schema"
-	"github.com/infracasts/terraform-provider-aws-public/experimental/nullable"
-	tftags "github.com/infracasts/terraform-provider-aws-public/tags"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/experimental/nullable"
+	tftags "github.com/infracasts/terraform-provider-aws-expose-internal/tags"
 )
 
 func ExpandReplicationRuleDestinationAccessControlTranslation(l []interface{}) *s3.AccessControlTranslation {

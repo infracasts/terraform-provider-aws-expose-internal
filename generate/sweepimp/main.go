@@ -135,9 +135,9 @@ import (
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 {{- range .Services }}
-	_ "github.com/infracasts/terraform-provider-aws-public/service/{{ .ProviderPackage }}"
+	_ "github.com/infracasts/terraform-provider-aws-expose-internal/service/{{ .ProviderPackage }}"
 {{- end }}
-	"github.com/infracasts/terraform-provider-aws-public/sweep"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/sweep"
 )
 
 func TestMain(m *testing.M) {

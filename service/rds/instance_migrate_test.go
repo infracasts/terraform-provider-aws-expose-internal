@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	tfrds "github.com/infracasts/terraform-provider-aws-public/service/rds"
+	tfrds "github.com/infracasts/terraform-provider-aws-expose-internal/service/rds"
 )
 
 func TestInstanceStateUpgradeV0(t *testing.T) {

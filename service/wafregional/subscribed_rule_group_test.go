@@ -8,7 +8,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/wafregional"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
 )
 
 func TestAccWAFRegionalSubscribedRuleGroupDataSource_basic(t *testing.T) {

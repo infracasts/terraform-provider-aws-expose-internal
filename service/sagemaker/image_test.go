@@ -10,9 +10,9 @@ import (
 	sdkacctest "github.com/hashicorp/terraform-plugin-sdk/v2/helper/acctest"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	"github.com/infracasts/terraform-provider-aws-public/conns"
-	tfsagemaker "github.com/infracasts/terraform-provider-aws-public/service/sagemaker"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/conns"
+	tfsagemaker "github.com/infracasts/terraform-provider-aws-expose-internal/service/sagemaker"
 )
 
 func TestAccSageMakerImage_basic(t *testing.T) {

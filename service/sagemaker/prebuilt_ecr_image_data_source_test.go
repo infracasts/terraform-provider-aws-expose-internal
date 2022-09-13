@@ -5,8 +5,8 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/sagemaker"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfsagemaker "github.com/infracasts/terraform-provider-aws-public/service/sagemaker"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfsagemaker "github.com/infracasts/terraform-provider-aws-expose-internal/service/sagemaker"
 )
 
 func TestAccSageMakerPrebuiltECRImageDataSource_basic(t *testing.T) {

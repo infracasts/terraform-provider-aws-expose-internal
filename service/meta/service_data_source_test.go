@@ -11,8 +11,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/s3"
 	"github.com/aws/aws-sdk-go/service/waf"
 	"github.com/hashicorp/terraform-plugin-sdk/v2/helper/resource"
-	"github.com/infracasts/terraform-provider-aws-public/acctest"
-	tfmeta "github.com/infracasts/terraform-provider-aws-public/service/meta"
+	"github.com/infracasts/terraform-provider-aws-expose-internal/acctest"
+	tfmeta "github.com/infracasts/terraform-provider-aws-expose-internal/service/meta"
 )
 
 func TestInvertStringSlice(t *testing.T) {

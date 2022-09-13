@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	tfcloudformation "github.com/infracasts/terraform-provider-aws-public/service/cloudformation"
+	tfcloudformation "github.com/infracasts/terraform-provider-aws-expose-internal/service/cloudformation"
 )
 
 func TestTypeVersionARNToTypeARNAndVersionID(t *testing.T) {

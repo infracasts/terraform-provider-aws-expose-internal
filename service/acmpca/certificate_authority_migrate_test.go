@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/hashicorp/terraform-plugin-sdk/v2/terraform"
-	tfacmpca "github.com/infracasts/terraform-provider-aws-public/service/acmpca"
+	tfacmpca "github.com/infracasts/terraform-provider-aws-expose-internal/service/acmpca"
 )
 
 func TestCertificateAuthorityMigrateState(t *testing.T) {

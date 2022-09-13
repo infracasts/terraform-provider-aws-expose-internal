@@ -3,7 +3,7 @@ package datasync_test
 import (
 	"testing"
 
-	tfdatasync "github.com/infracasts/terraform-provider-aws-public/service/datasync"
+	tfdatasync "github.com/infracasts/terraform-provider-aws-expose-internal/service/datasync"
 )
 
 func TestSubdirectoryFromLocationURI(t *testing.T) {

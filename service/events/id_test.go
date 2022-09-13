@@ -3,7 +3,7 @@ package events_test
 import (
 	"testing"
 
-	tfevents "github.com/infracasts/terraform-provider-aws-public/service/events"
+	tfevents "github.com/infracasts/terraform-provider-aws-expose-internal/service/events"
 )
 
 func TestPermissionParseResourceID(t *testing.T) {
